@@ -10,7 +10,9 @@
     <modules>
         <module>mybatis_annotation</module>
         <module>mybatis_crud</module>
-        <module>mybatis_daoimp</module>
+        <module>mybatis_daoimpl</module>
+        <module>mybatis_conf_refactor</module>
+        <module>mybatis_sql</module>
     </modules>
     <packaging>pom</packaging>
 

@@ -16,7 +16,8 @@ public class User implements Serializable {
     private Date birthday;
     private String sex;
     private String address;
-    //一对多关系映射：一个用户对应多个账户
+
+    //一对多关系映射：主表实体应该包含从表实体的集合引用
     private List<Account> accounts;
 
     public List<Account> getAccounts() {
